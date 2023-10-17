@@ -1,0 +1,29 @@
+spring:
+  flyway:
+    enabled: true
+    url: jdbc:postgresql://localhost:5432/postgres
+    user: postgres
+    password: password
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: password
+
+
+
+
+
+springdoc:
+  api-docs:
+    groups:
+      enabled: true
+    path: "/swagger-doc/v1/api-docs"
+  swagger-ui:
+    path: "/swagger-doc/swagger-ui.html"
+
+
+server:
+  port: 8080
+
+error:
+  include-message: always
