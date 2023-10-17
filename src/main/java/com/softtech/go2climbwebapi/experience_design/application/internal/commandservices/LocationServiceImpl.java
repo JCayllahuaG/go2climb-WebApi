@@ -1,6 +1,5 @@
-package com.softtech.go2climbwebapi.experience_design.application.services;
+package com.softtech.go2climbwebapi.experience_design.application.internal.commandservices;
 
-import com.softtech.go2climbwebapi.experience_design.domain.model.entities.Location;
 import com.softtech.go2climbwebapi.experience_design.domain.service.ILocationService;
 import com.softtech.go2climbwebapi.experience_design.infraestructure.mapping.LocationMapper;
 import com.softtech.go2climbwebapi.experience_design.infraestructure.persistence.ILocationRepository;

@@ -1,4 +1,4 @@
-package com.softtech.go2climbwebapi.experience_design.application.services;
+package com.softtech.go2climbwebapi.experience_design.application.internal.commandservices;
 
 import com.softtech.go2climbwebapi.experience_design.domain.model.entities.Agency;
 import com.softtech.go2climbwebapi.experience_design.domain.service.IAgencyService;
